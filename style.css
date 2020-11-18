@@ -1,0 +1,227 @@
+:root{
+  scroll-behavior: smooth;
+}
+
+.menu{
+  position: fixed;
+  top: 35%;
+  left: 10px;
+  z-index: 3;
+  margin: 10px;
+}
+
+
+::-webkit-scrollbar{
+	width: 10px;
+	
+}
+::-webkit-scrollbar-thumb {
+	background: #A9BC9C;
+	border-radius:3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CCE4BE;
+}
+
+body {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 99.2%;
+  font-family: "Montserrat", sans-serif;
+  align-items: center
+}
+.titulo {
+  min-height: inherit;
+  font-weight: 300;
+  color: #4d4d4d;
+}
+.txt{
+  position: inherit;
+  font-weight: 300;
+  color: #4d4d4d;
+  text-align: left;;
+}
+
+.lema1{
+  width: 50%;
+  margin: 0px;
+  margin-top: 0px;
+
+  }
+
+.lema {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  font-size: 72px;
+  font-weight: 400;
+  color: #a8ba9b;
+  margin: 0px;
+}
+.crea-momentos {
+  text-align: left;
+  width: 100%;
+  font-size: 72px;
+  font-weight: 500;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  margin: 0px;
+}
+
+.home {
+  margin-left: 0px; 
+  width: 100%;
+  height: 100vh;
+  margin-top: 0px;
+  text-align: left;
+  background-image: url("Img/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.us {
+  width: 100%;
+  height: 50vh;
+  text-align: left;
+}
+.contenedor-calentador {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  text-align: left;
+  background-color: white;
+}
+
+.contenedor-humi {
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  display: flex;
+   
+}
+.contenedor-compra {
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+}
+.contenedor-app {
+  background-image: url("Img/fondoapp.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+.contenedor-footer {
+ width: 100%;
+ height: 25vh;
+ margin-top: 0px;
+ text-align: center;
+}
+.redes{
+	display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+	text-align: left;
+	object-position: left;
+	
+		
+}
+.icon-redes{
+	width: 10px;
+	height: 10px;
+	text-align: right;
+	
+	
+	
+}
+
+.logoc{
+	vertical-align: bottom;
+	display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.button {
+	width: 183px;
+	height: 36px; 
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: left;
+	vertical-align: middle;
+	padding-bottom: 10px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-right: 0px;
+	background: #CBE3BE;
+	border: none;
+	cursor: pointer;
+}
+.button :hover {
+	background:  blue;
+}
+
+
+.button2 {
+	width: 183px;
+	height: 36px; 
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: left;
+	vertical-align: middle;
+	padding-bottom: 10px;
+	padding-top: 7px;
+	padding-left: 8px;
+	padding-right: 0px;	
+	background:  #CBE3BE;
+	border: none;
+	
+}
+.button2 :hover{
+	background: #CCE4BE;
+}
+
+
+.fuck {
+	width: 183px;
+	height: 32px; 
+	border: #CBE3BE;
+	border-radius: 2px;
+}
+:focus {
+       outline: none;
+}
+.button:disabled {
+    border: 1.2px solid #D6EDC8;
+	border-radius: 2px;
+	background-color: white;
+}
+.boton:hover{	
+	border: 1.2px solid #D6EDC8;
+	border-radius: 2px;
+	background-color: white;
+	
+}
+.boton {
+	background: white;
+	border:none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	margin-right: 0px
+	
+}
+.numero {
+	font-size: 55pt;
+	font-weight: 200;
+	color: black;
+	margin: 1px;
+	
+}
+
